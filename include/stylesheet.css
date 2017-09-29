@@ -55,7 +55,7 @@ strong {
 
 @font-face {
     font-family: 'Whitney Medium';
-    src: url('/include/font/WhitneyMedium.ttf') format('truetype'), url('/include/font/WhitneyMedium.woff') format('woff');
+    src: url('./include/font/WhitneyMedium.ttf') format('truetype'), url('./include/font/WhitneyMedium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
