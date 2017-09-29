@@ -11,7 +11,7 @@
     word-wrap: break-word;
     color: #fff;
     text-rendering: optimizeLegibility;
-    font-family: "Whitney Medium";
+    font-family: "Whitney Medium", sans-serif;
 }
 
 .avatar {
@@ -54,6 +54,8 @@ strong {
 }
 
 @font-face {
-    font-family: "Whitney Medium";
-    src: url("include/font/Whitney Medium.ttf") format("truetype");
+    font-family: 'Whitney Medium';
+    src: url('/include/font/WhitneyMedium.ttf') format('truetype'), url('/include/font/WhitneyMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
