@@ -1,0 +1,59 @@
+.screencap {
+    background: #36393f;
+    width: 817px;
+}
+
+.message {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 6px;
+    padding: 20px 0;
+    word-wrap: break-word;
+    color: #fff;
+    text-rendering: optimizeLegibility;
+    font-family: "Whitney Medium";
+}
+
+.avatar {
+    background-image: url('https://cdn.discordapp.com/avatars/168418439545880576/beb5143e508159dc33685d8122b53615.png?size=128');
+    flex-shrink: 0;
+    margin-right: 20px;
+    margin-top: -2px;
+    transition: opacity .2s ease;
+    cursor: pointer;
+    background-size: 40px 40px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+span,
+strong {
+    vertical-align: baseline;
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+}
+
+.username {
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+.timestamp {
+    color: hsla(0, 0%, 100%, .2);
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin-left: 6px;
+    text-transform: none;
+}
+
+@font-face {
+    font-family: "Whitney Medium";
+    src: url("include/font/Whitney Medium.ttf") format("truetype");
+}
